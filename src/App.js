@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import {Welcome} from './welcome.js';
+import {BigCount} from './counts.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Welcome name="Lee"/>
+      <BigCount/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
