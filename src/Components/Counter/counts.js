@@ -9,7 +9,7 @@ export function BigCount() {
 	return (
 		<div>
 			<div class="col">
-				<div class="row">
+				
 					<p> you clicked {count} times. </p>
 					<Button variant="info" value="Click Here" onClick={() => setCount(count + 1)}  >
 						Click Here for +
@@ -18,7 +18,7 @@ export function BigCount() {
 					<Button variant="info" value="Click Here" onClick={() => setCount(count - 1)} >
 						Click Here for -
 					</Button>
-				</div>
+				
 			</div>
 			<div class="col">
 		
