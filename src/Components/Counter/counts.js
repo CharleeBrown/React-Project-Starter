@@ -24,7 +24,8 @@ export function BigCount() {
 					</Button>
 				
 				
-			
+			</div>
+		<div class="col-sm-4">
 					<InputGroup className="mb-3">
     <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
     <FormControl
