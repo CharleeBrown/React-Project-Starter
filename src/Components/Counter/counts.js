@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
+import { InputGroup } from 'react-bootstrap';
+import { FormGroup} from 'react-bootstrap';
+import { Form} from 'react-bootstrap';
+import { FormControl} from 'react-bootstrap';
+
 
 import './test.css';
 export function BigCount() {
@@ -19,9 +23,17 @@ export function BigCount() {
 						Click Here for -
 					</Button>
 				
-			</div>
-			<div class="col">
-		
+				
+			
+					<InputGroup className="mb-3">
+    <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
+    <FormControl
+      placeholder="Username"
+      aria-label="Username"
+      aria-describedby="basic-addon1"
+	  maxLength="3"
+    />
+  </InputGroup>
 			</div>
 			</div>
 	)
