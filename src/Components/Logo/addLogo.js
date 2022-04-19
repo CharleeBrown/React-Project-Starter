@@ -5,19 +5,18 @@ import { Form } from 'react-bootstrap';
 
 
 export function AddLogo() {
-	return(
-<header className="App-header">
-<img src={logo} className="App-logo" alt="logo" />
-<p>
-  Edit <code>src/App.js</code> and save to reload.
-</p>
-<a
-  className="App-link"
-  href="https://reactjs.org"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Learn React
-</a>
-</header>
+	const [newName, changer] = useState(0);
+  const list= ['Coleslaw', 'Coletrain', 'Cole', 'Mr. Hallom'];
+  
+  return(
+    <div>
+        <header className="App-header"/>
+              <h3>Hi, My name is</h3>
+                    <p>{newName}</p>
+                  <Button className="nameGeneration" value="Name Changer"
+                  onClick={() => changer( foreach(item in list){
+                    newName = item})}
+                  />
+ 
+    </div>
 	)}
