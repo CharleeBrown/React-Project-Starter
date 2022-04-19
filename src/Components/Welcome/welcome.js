@@ -1,5 +1,10 @@
 import React from 'react';
+import {Button} from 'react-bootstrap';
 export function Welcome(props){
-	return <h1>Hello, Your name is :{props.name}</h1>
-}
+
+	return (
+	<Button variant="info" value="Click Here" >
+		
+	</Button>
+	)}
 //module.exports.default = Welcome;

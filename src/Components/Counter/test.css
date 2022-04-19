@@ -1,6 +1,7 @@
-button{
-	margin:10px;
+.btnPlus, .btnMinus{
+	margin:50px !important;
 	display:inline-block;
+	padding:10px; 
 }
 
 #textDiv{

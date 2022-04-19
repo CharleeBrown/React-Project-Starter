@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './Components/App.js';
+import './Components/Counter/test.css';
 import reportWebVitals from './reportWebVitals';
 
 
